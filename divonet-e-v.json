@@ -1,0 +1,72 @@
+{
+  "api": "0.5.2",
+  "name": "DiVoNet e.V.",
+  "url": "https://www.divonet.de",
+  "location": {
+    "city": "Königswinter",
+    "country": "DE",
+    "address": {
+      "street": "Gräfenhohner Str. 33a",
+      "zipcode": "53639"
+    },
+    "geoCode": {
+      "lat": 50.68662285970739,
+      "lon": 7.278120273572101
+    }
+  },
+  "contact": {
+    "email": "kontakt@divonet.de",
+    "phone": "+49 152 21847820 ",
+    "facebook": "https://www.facebook.com/divonet.de"
+  },
+  "state": {
+    "nodes": 400,
+    "lastchange": "2024-10-14T18:00:00+02:00",
+    "message": "open for public",
+    "description": "Freifunk für Königswinter und Umgebung"
+  },
+  "nodeMaps": [
+    {
+      "url": "https://map.divonet.de",
+      "interval": "120 s",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    },
+    {
+      "technicalType": "nodelist",
+      "mapType": "list/status",
+      "url": "https://map.divonet.de/data/sn04-netsplit/nodelist.json",
+      "interval": "120 s"
+    }
+  ],
+  "services": [
+    {}
+  ],
+  "timeline": [],
+  "support": {
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE26 3806 0186 2414 1720 19",
+        "BIC": "GENODED1BRS"
+      },
+      "campaigns": [
+        {
+          "provider": "betterplace",
+          "projectid": "85295"
+        }
+      ]
+    }
+  },
+  "techDetails": {
+    "firmware": {
+      "url": "https://firmware.divonet.de/",
+      "name": "Gluon"
+    },
+    "updatemode": [
+      "autoupdate"
+    ],
+    "routing": [
+      "batman-adv"
+    ]
+  }
+}
